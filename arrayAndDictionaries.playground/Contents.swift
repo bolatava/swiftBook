@@ -18,3 +18,13 @@ for (author, book) in bookCollectionWithAuthor {
 
 var emojiDict: [String : String] = ["👻":"ghost", "🤖":"robot", "🤓":"nerd", "💩":"poo"]
 emojiDict["😤"] = "angry"
+
+//optional
+var wordToLookUp = "🤖"
+var meaning = emojiDict[wordToLookUp]
+if let meaning = meaning {
+    print(meaning)
+}
+
+wordToLookUp = "🤓"
+meaning = emojiDict[wordToLookUp]
