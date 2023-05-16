@@ -13,15 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button {
-                //                instruct to speak a piece of text for you
-                //                create the speech synthesizer
-                let synthesizer = AVSpeechSynthesizer()
-                let utterance = AVSpeechUtterance(string: "Hello World")
-                //                sets the voice
-                utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
-                //                chosen voice
-                synthesizer
-                    .speak(utterance)
+               speak(text: "Hello, World!")
             } label: {
                 Text("Hello, world!")
                     .fontWeight(.bold)
@@ -33,15 +25,7 @@ struct ContentView: View {
             .cornerRadius(20)
             
             Button {
-                //                instruct to speak a piece of text for you
-                //                create the speech synthesizer
-                let synthesizer = AVSpeechSynthesizer()
-                let utterance = AVSpeechUtterance(string: "Happy Programming")
-                //                sets the voice
-                utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
-                //                chosen voice
-                synthesizer
-                    .speak(utterance)
+                speak(text: "Happy Programming")
             } label: {
                 Text("Happy Programming")
                     .fontWeight(.bold)
@@ -52,7 +36,17 @@ struct ContentView: View {
             .background(Color.yellow)
             .cornerRadius(20)
         }
-        .padding()
+    }
+    
+    func speak(text: String) {
+        let utterance = AVSpeechUtterance(string: text)
+//        sets the voice
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+//        instruct to speak a piece of text for you
+//        create the speech synthesizer
+        let synthesizer = AVSpeechSynthesizer()
+//        chosen voice
+        synthesizer.speak(utterance)
     }
 }
 
