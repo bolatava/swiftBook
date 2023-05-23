@@ -15,26 +15,42 @@ struct ContentView: View {
                     .foregroundColor(Color(.blue))
                     .font(.title)
                 Text("Get help from experts in 15 minutes")
-            
-            HStack {
-                Image("user1")
-                Image("user2")
-                Image("user3")
-            }
-            .padding()
-            
-            Text("Need help with coding problems? Register!")
-            
-            VStack {
-                Button("Sign Up") {}
+                
+                HStack {
+                    Image("user1")
+                    Image("user2")
+                    Image("user3")
+                }
+                .padding()
+                
+                Text("Need help with coding problems? Register!")
+                
+                Spacer()
+                
+                VStack {
+                    Button {
+                        
+                    } label: {
+                        Text("Sign In")
+                    }
+                    .frame(width: 200)
+                    .padding()
+                    .foregroundColor(.white)
                     .background(Color.blue)
-                    .foregroundColor(Color.white)
-                    .padding(10)
-                Button("Log In") {}
+                    .cornerRadius(10)
+                    
+                    Button {
+                        
+                    } label : {
+                        Text("Log In")
+                    }
+                    .frame(width: 200)
+                    .padding()
+                    .foregroundColor(.white)
                     .background(Color.gray)
-                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
+                }
             }
-        }
             .padding()
         }
     }
