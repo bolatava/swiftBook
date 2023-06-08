@@ -11,8 +11,9 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack {
-                Text("Instatnt Developer")
-                    .foregroundColor(Color(.blue))
+                Text("Instant Developer")
+                    .fontWeight(.medium)
+                    .foregroundColor(.indigo)
                     .font(.title)
                 Text("Get help from experts in 15 minutes")
                 
