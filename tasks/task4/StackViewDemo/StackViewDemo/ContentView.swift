@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        VStack {
             VStack {
                 Text("Instant Developer")
                     .fontWeight(.medium)
@@ -17,11 +17,13 @@ struct ContentView: View {
                     .font(.title)
                 Text("Get help from experts in 15 minutes")
                 
+                Spacer()
                 HStack {
                     Image("user1")
                     Image("user2")
                     Image("user3")
                 }
+                
                 .padding()
                 
                 Text("Need help with coding problems? Register!")
