@@ -40,3 +40,21 @@ swapAll(a: &aString, b: &bString)
 print("String A: \(aString), String A \(bString)")
 
 //написать функцию с параметрами in-out. на коробке с хлопьями написано: одна унция хлопьев содержит:протеин - 40%, витамин А - 25%, витамин С - 35%. На завтрак съедено n унций хлопьев. Определите сколько унций составляет оставшаяся часть дневной нормы каждого из веществ. допустим съедено n = 2, а дневная норма n = 10 унций.
+
+  
+//func dailyNorm(p: inout Int, a: inout Int, c: inout Int) {
+//    let norm = 10
+//    let eaten = 2
+//    
+//    var protein = (p / 100) * (norm - eaten)
+//    var vitA = (a / 100) * (norm - eaten)
+//    var vitC = (c / 100) * (norm - eaten)
+//}
+//
+//var protein = 40
+//var vitA = 25
+//var vitC = 35
+//
+//dailyNorm(p: &protein, a: &vitA, c: &vitC)
+//
+//print("daily norm of protein is" \protein, "vitamin A is \(vitA), vitamin C is \(vitC)" )
