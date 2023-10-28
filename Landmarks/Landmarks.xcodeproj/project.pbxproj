@@ -18,6 +18,7 @@
 		ADC9C6582AB211C600FBE5EC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9C6572AB211C600FBE5EC /* ModelData.swift */; };
 		ADC9C6602AD181D400FBE5EC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9C65F2AD181D400FBE5EC /* LandmarkRow.swift */; };
 		ADC9C6622AED607A00FBE5EC /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9C6612AED607A00FBE5EC /* LandmarksList.swift */; };
+		ADC9C6642AED650800FBE5EC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9C6632AED650800FBE5EC /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		ADC9C6572AB211C600FBE5EC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		ADC9C65F2AD181D400FBE5EC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		ADC9C6612AED607A00FBE5EC /* LandmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksList.swift; sourceTree = "<group>"; };
+		ADC9C6632AED650800FBE5EC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				ADC9C6432AAA6E9700FBE5EC /* ContentView.swift */,
 				ADC9C6612AED607A00FBE5EC /* LandmarksList.swift */,
+				ADC9C6632AED650800FBE5EC /* LandmarkDetail.swift */,
 				ADC9C64F2AB1F8C300FBE5EC /* CircleImage.swift */,
 				ADC9C65F2AD181D400FBE5EC /* LandmarkRow.swift */,
 				ADC9C6512AB1FD5A00FBE5EC /* MapView.swift */,
@@ -187,6 +190,7 @@
 				ADC9C6522AB1FD5A00FBE5EC /* MapView.swift in Sources */,
 				ADC9C6422AAA6E9700FBE5EC /* LandmarksApp.swift in Sources */,
 				ADC9C6502AB1F8C300FBE5EC /* CircleImage.swift in Sources */,
+				ADC9C6642AED650800FBE5EC /* LandmarkDetail.swift in Sources */,
 				ADC9C6562AB20C6700FBE5EC /* Landmark.swift in Sources */,
 				ADC9C6602AD181D400FBE5EC /* LandmarkRow.swift in Sources */,
 				ADC9C6582AB211C600FBE5EC /* ModelData.swift in Sources */,
